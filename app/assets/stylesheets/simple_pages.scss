@@ -1,3 +1,82 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//TEXT STYLES
+h1 {
+  color: #ec7676;
+  margin: 20px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
+//NAVIGATION
+.nav {
+  margin: 10px;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: black;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #ec7676;
+}
+
+
+//IMAGES
+img {
+  margin: 20px;
+}
+
+
+//FOOTER
+footer, footer p {
+  margin: 20px;
+  color: white;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 100px;
+}
+
+.site-footer {
+  background: black;
+}
